@@ -1,8 +1,18 @@
-const { toUpper:upper } = require("../src/index");
+const { toUpper:upper, decorateToUpper } = require("../src/index");
 
 describe("Test some function", () => {
     // test
-    test("test", () => {
-        expect(upper("UnIcOrNs aRe GoOd")).toEqual("UNICORNS ARE GOOD");
+    test("it should make string uppercased", () => {
+        expect(upper("UnIcOrNs")).toEqual("UNICORNS");
+    });
+
+    test("it should make string uppercased and append [decorated] to the end", () => {
+        expect(decorateToUpper("UnIcOrNs")).toEqual("UNICORNS [decorated]");
+    });
+
+    test("mock toUpper()", () => {
+        const f = require("../src/index");
+        jest.spyOn(f, 'toUpper').mockReturnValue('ccc');
+        expect(f.decorateToUpper('aaa')).toBe('ccc [decorated]');
     });
 });
