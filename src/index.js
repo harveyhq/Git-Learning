@@ -1,5 +1,5 @@
 /**
- * Test function
+ * Convert text to uppercase
  *
  * @param {String} name
  * @returns Uppercased string
