@@ -1,5 +1,5 @@
-# Jabascript Test Repo
+# Javascript Test Repo
 
 **Demo text**
 
-Okay 
+Okay
