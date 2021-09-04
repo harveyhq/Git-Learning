@@ -1,1 +1,7 @@
-console.log("alert!");
+class Player
+{
+    openDoor(name)
+    {
+        console.log("ok!");
+    }
+}
