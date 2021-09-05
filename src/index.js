@@ -1,25 +1,27 @@
+'use strict';
+
 /**
  * Convert text to uppercase
  *
- * @param {String} name
- * @returns Uppercased string
+ * @param {string} name Any string
+ * @returns {string|false} Uppercased string
  */
 function toUpper(name) {
-    return 'string' === typeof name && name.toUpperCase();
+    return typeof name === 'string' && name.toUpperCase();
 }
 
 /**
  * Convert text to uppercase and decorates it
  *
- * @param {String} name
- * @returns String
+ * @param {string} name Any string
+ * @returns {string} Uppercased string
  */
 function decorateToUpper(name) {
-    return module.exports.toUpper(name) && module.exports.toUpper(name) + ' [decorated]';
+    return module.exports.toUpper(name) && `${module.exports.toUpper(name)} [decorated]`;
 }
 
 
 module.exports = {
     toUpper,
-    decorateToUpper
+    decorateToUpper,
 };
