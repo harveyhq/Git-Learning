@@ -20,7 +20,6 @@ function decorateToUpper(name) {
     return module.exports.toUpper(name) && `${module.exports.toUpper(name)} [decorated]`;
 }
 
-
 module.exports = {
     toUpper,
     decorateToUpper,
