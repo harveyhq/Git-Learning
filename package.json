@@ -1,7 +1,7 @@
 {
   "name": "git-learning-demo-npm",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Trying github features",
   "main": "./src/index.js",
   "scripts": {
     "test": "jest"
