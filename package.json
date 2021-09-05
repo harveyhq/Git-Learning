@@ -14,5 +14,18 @@
   "devDependencies": {
     "@types/jest": "27.0.1",
     "jest": "27.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/harveyhq/Git-Learning.git"
+  },
+  "bugs": {
+    "url": "https://github.com/harveyhq/Git-Learning/issues"
+  },
+  "homepage": "https://github.com/harveyhq/Git-Learning",
+  "keywords": [
+    "github",
+    "test",
+    "demo"
+  ]
 }
