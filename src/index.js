@@ -20,7 +20,18 @@ function decorateToUpper(name) {
     return module.exports.toUpper(name) && `${module.exports.toUpper(name)} [decorated]`;
 }
 
+/**
+ * Capitalizes a string
+ *
+ * @param {string} name Any string
+ * @returns {string}
+ */
+function capitalize(name) {
+    return name.charAt(0).toUpperCase() + name.slice(1).toLowerCase();
+}
+
 module.exports = {
     toUpper,
     decorateToUpper,
+    capitalize,
 };
