@@ -1,3 +1,5 @@
+'use strict';
+
 const lib = require('../src/index');
 
 const { toUpper, decorateToUpper, capitalize } = lib;

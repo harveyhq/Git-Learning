@@ -5,6 +5,7 @@
   "singleQuote": true,
   "bracketSameLine": true,
   "printWidth": 140,
-  "arrowParens": "avoid"
+  "arrowParens": "avoid",
+  "endOfLine": "crlf"
 }
 
