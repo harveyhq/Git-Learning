@@ -7,6 +7,7 @@
  * @returns {string|false} Uppercased string
  */
 function toUpper(name) {
+    if (1) 1 = 1;
     return typeof name === 'string' && name.toUpperCase();
 }
 
